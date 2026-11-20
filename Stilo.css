@@ -1,0 +1,81 @@
+/* Estilos generales de la página */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f6f9;
+    color: #333333;
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    line-height: 1.6;
+}
+
+
+img {
+    border-radius: 50%;
+    border: 3px solid #2c3e50;
+    display: block;
+    margin-bottom: 15px;
+}
+
+/* titulo */
+h1 {
+    color: #2c3e50;
+    margin-bottom: 5px;
+    font-size: 28px;
+}
+
+h2 {
+    color: #2980b9;
+    font-size: 20px;
+    border-bottom: 2px solid #ecf0f1;
+    padding-bottom: 5px;
+    margin-top: 25px;
+}
+
+h3 {
+    color: #2c3e50;
+    margin-bottom: 5px;
+    font-size: 17px;
+}
+
+/* parrafos  */
+p {
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+ul, ol {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 6px;
+}
+
+/* links */
+a {
+    color: #2980b9;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* lineas  */
+hr {
+    border: none;
+    border-top: 1px solid #e0e0e0;
+    margin: 20px 0;
+}
+
+/* final de pagina */
+footer {
+    text-align: center;
+    font-size: 14px;
+    color: #777777;
+    margin-top: 30px;
+}
